@@ -37,3 +37,7 @@ user@master IP=WORKER_LOCAL_IP bash deploy.sh
 ```
 
 If you don't want the prompt to last, you can add the nohung to the end (&)
+
+# New cluster
+
+If you need to reset the cluster, you can just rerun the scripts the same way. If conda is present, they will just spin up the workers and schedulers.
